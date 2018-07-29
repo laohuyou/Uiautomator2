@@ -1,0 +1,15 @@
+Uiobject2
+
+//延时sleep写法，
+    public void sleep(int sleep){
+        try{
+            Thread.sleep(sleep);
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+    }
+
+
+adb shell dumpsys activity | findstr "mFocusedActivity"
+
+查询Activity
